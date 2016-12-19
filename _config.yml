@@ -1,0 +1,12 @@
+title: Sanchith Kuttappa
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: sanchith
+github_username:  sanchith
+
+# Build settings
+markdown: kramdown
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/

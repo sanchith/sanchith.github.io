@@ -1,0 +1,165 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+}
+
+.leftSidebarLanding {
+  height: 100vh;
+  width: 30%;
+  float: left;
+  background-color: #ABA6A2;
+  .imgLogo {
+    height: 100px;
+    margin-left: 1%;
+  }
+}
+
+.leftSidebarMain {
+  height: 100vh;
+  width: 20%;
+  float: left;
+  background-color: #ABA6A2;
+  .imgLogo {
+    height: 80px;
+    margin-left: 4%;
+    margin-top: 3%;
+  }
+  .aboutTextbox {
+    height: 50%;
+    width: 80%;
+    background-color: #F9F8F7;
+    margin-left: 10%;
+    margin-top: 8%;
+    .aboutText {
+      font-size: 10px;
+      padding: 3% 5%;
+      text-align: left;
+    }
+  }
+  .sidebarMenu {
+    padding-top: 2%;
+    .sidebarTabs {
+      height: 27px;
+      width: 202px;
+      background: -webkit-linear-gradient(left, #cc0a4a 0%,#ff0073 100%);
+      margin: 0;
+      margin-left: 10%;
+    }
+    .sidebarMenuText {
+      color: white;
+      text-align: left;
+      padding-left: 5%;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+    .sidebarTabs:hover {
+      .sidebarMenuText {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.aboutImg {
+  height: 45%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+.rightSidebarLanding {
+  height: 100vh;
+  width: 70%;
+  float: right;
+  background-color: #2F2E2C;
+  .imgMain {
+    height: 80%;
+    width: 100%;
+    margin-top: 8%;
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    .imgOverlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, .7);
+    }
+  }
+}
+
+.rightSidebarMain {
+  height: 100vh;
+  width: 80%;
+  float: right;
+  background-color: #2F2E2C;
+}
+
+.overlayText {
+  color: white;
+  width: 35%;
+  position: absolute;
+  top: 63%;
+  left: 62%;
+}
+
+.tabs {
+  height: 30px;
+  width: 200px;
+  // background-color: #E90071;
+  background: -webkit-linear-gradient(left, #cc0a4a 0%,#ff0073 100%);
+  position: relative;
+  margin: 4%;
+  margin-left: 22%;
+  .tabText {
+    position: absolute;
+    top: -12px;
+    left: 72px;
+    color: white;
+    opacity: 0;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+  .blog {
+    left: 78px;
+  }
+  .contact {
+    left: 58px;
+  }
+}
+
+.tabs:hover {
+  .tabText {
+    cursor: pointer;
+    opacity: 1;
+  }
+}
+
+.menuTabs {
+  padding-top: 14%;
+}
+
+.aboutBox {
+  height: 85%;
+  width: 90%;
+  margin: 5%;
+  background-color: #F9F8F7;
+  overflow-y: scroll;
+  .aboutBoxText {
+    color: black;
+    padding: 3% 5%;
+  }
+}
