@@ -1,5 +1,6 @@
 title: Sanchith Kuttappa
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://www.sanchithkuttappa.com" # the base hostname & protocol for your site
 twitter_username: sanchith
 github_username:  sanchith
 
