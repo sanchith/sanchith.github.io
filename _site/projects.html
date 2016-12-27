@@ -1,8 +1,30 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div>
+  <!--This include tag adds /_includes/head.html to every page that has layout: default in the front matter -->
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sanchith Kuttappa</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+  <body>
+    
+    <!--This include tag adds /_includes/header.html to every page that has layout: default in the front matter -->
+    <header>
+
+</header>
+
+
+      <div class="wrapper">
+        <!--Any content underneath the front matter in a page that has layout: default will be inserted here-->
+        <div>
 
   <div class="leftSidebarMain">
     <div class="logo">
@@ -56,17 +78,35 @@ layout: default
       </ul>
     </div>
 
-    <!-- <h1>Blog</h1>
-      {% for posts in site.posts %}
-      <h2> {{posts.title}}</h2>
-      <p>{{posts.excerpt}}</p>
-      <p>{{posts.tags}}</p>
-      <a href="{{posts.url | prepend:site.baseurl}}">
-        <img src="{{posts.image}}"></a>
-      {% endfor %} -->
+    <!-- <h1>Projects</h1>
+      
+      <h2> Branchless Bank</h2>
+      <p>This is a fictional IOS app for a Branchless Bank</p>
+      <p>Design,Logo,App,Invision,Ai</p>
+      <a href="/projects/branchless/">
+        <img src="images/macaroons.jpeg"></a>
+      
+      <h2> Goodreads</h2>
+      <p>This is a redesign of the bookshelf section of the Goodreads website</p>
+      <p>Redesign,Logo,Ps,Responsive</p>
+      <a href="/projects/goodreads/">
+        <img src="images/macaroons.jpeg"></a>
+       -->
 
   </div>
 
-
-
 </div>
+
+      </div>
+    
+    <!--This include tag adds /_includes/footer.html to every page that has layout: default in the front matter -->
+    <footer>
+
+
+
+</footer>
+
+
+  </body>
+
+</html>
