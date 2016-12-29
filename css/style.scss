@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #B5B3B1;
   .logo {
     margin-top: 3%;
-    margin-left: 5%;
+    margin-left: 12%;
     .imgLogo {
       height: 80px;
       width: 80px;
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p {
     .imgName {
       height: 80px;
       position: relative;
-      margin-left: -10px;
+      margin-left: -5px;
     }
   }
 }
@@ -53,54 +53,82 @@ h1, h2, h3, h4, h5, h6, p {
       margin-left: -5px;
     }
   }
-  .aboutTextbox {
-    height: 54%;
-    width: 80%;
-    background-color: #F9F8F7;
-    margin-left: 10%;
-    margin-top: 8%;
-    .aboutText {
-      font-size: .8rem;
-      line-height: 1.2rem;
-      padding: 5% 5%;
-      text-align: left;
+}
+
+.aboutTextbox {
+  height: 54%;
+  width: 80%;
+  background-color: #F9F8F7;
+  margin-left: 10%;
+  margin-top: 8%;
+  .aboutText {
+    font-size: .8rem;
+    line-height: 1.2rem;
+    padding: 5% 5%;
+    text-align: left;
+  }
+}
+
+.mainTextbox {
+  margin-left: 13%;
+  margin-top: 5%;
+  width: 75%;
+  .mainText {
+    color: white;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    padding: 0 0;
+    text-align: center;
+  }
+  .boldText {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+
+.sidebarMenu {
+  padding-top: 2%;
+  margin-left: 10%;
+  .sidebarTabs {
+    height: 27px;
+    width: 202px;
+    background: -webkit-linear-gradient(left, #cc0a4a 0%,#ff0073 100%);
+    margin: 0;
+  }
+  .sidebarMenuText {
+    color: white;
+    color: #C1BEBC;
+    text-align: left;
+    padding-left: 5%;
+    a {
+      text-decoration: none;
+      color: white;
     }
   }
-  .sidebarMenu {
-    padding-top: 2%;
-    .sidebarTabs {
-      height: 27px;
-      width: 202px;
-      background: -webkit-linear-gradient(left, #cc0a4a 0%,#ff0073 100%);
-      margin: 0;
-      margin-left: 10%;
-    }
+  .sidebarTabs:hover {
     .sidebarMenuText {
-      color: white;
-      color: #C1BEBC;
-      text-align: left;
-      padding-left: 5%;
-      a {
-        text-decoration: none;
-        color: white;
-      }
-    }
-    .sidebarTabs:hover {
-      .sidebarMenuText {
-        cursor: pointer;
-      }
+      cursor: pointer;
     }
   }
 }
 
+.mainSidebarMenu {
+  margin-left: 13%;
+  .mainSidebarTabs {
+    width: 83%;
+  }
+}
+
 .aboutImg {
-  height: 50%;
   width: 80%;
-  // border: solid 1px #cc0a4a;
-  // padding: 5px;
-  // background-clip: content-box; /* support: IE9+ */
   margin-left: 10%;
   margin-top: 15%;
+}
+
+.mainImg {
+  width: 72%;
+  margin-top: 10%;
+  margin-left: 13%;
 }
 
 .rightSidebarLanding {
@@ -109,12 +137,12 @@ h1, h2, h3, h4, h5, h6, p {
   float: right;
   background-color: #2F2E2C;
   .imgMain {
-    height: 80%;
+    height: 100%;
     width: 100%;
-    margin-top: 4%;
+    // margin-top: 4%;
     position: relative;
     img {
-      height: 100%;
+      height: 80%;
       width: 100%;
     }
     .imgOverlay {
@@ -128,6 +156,15 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
+.wordCloudMain {
+  background-image: url("../images/portfolioLandingImg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
 .rightSidebarMain {
   height: 100vh;
   width: 80%;
@@ -137,8 +174,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .socialIcons {
   text-align: right;
-  margin-right: 2%;
-  margin-top: 2%;
+  margin-right: 3%;
+  margin-top: 2.5%;
   ul>li {
     display: inline;
     list-style: none;
@@ -175,7 +212,7 @@ h1, h2, h3, h4, h5, h6, p {
     top: -12px;
     left: 72px;
     color: white;
-    opacity: 0;
+    opacity: 0.3;
     a {
       text-decoration: none;
       color: white;

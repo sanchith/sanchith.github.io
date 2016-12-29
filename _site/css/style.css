@@ -13,14 +13,14 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #B5B3B1; }
   .leftSidebarLanding .logo {
     margin-top: 3%;
-    margin-left: 5%; }
+    margin-left: 12%; }
     .leftSidebarLanding .logo .imgLogo {
       height: 80px;
       width: 80px; }
     .leftSidebarLanding .logo .imgName {
       height: 80px;
       position: relative;
-      margin-left: -10px; }
+      margin-left: -5px; }
 
 .leftSidebarMain {
   height: 100vh;
@@ -37,41 +37,66 @@ h1, h2, h3, h4, h5, h6, p {
       height: 60px;
       position: relative;
       margin-left: -5px; }
-  .leftSidebarMain .aboutTextbox {
-    height: 54%;
-    width: 80%;
-    background-color: #F9F8F7;
-    margin-left: 10%;
-    margin-top: 8%; }
-    .leftSidebarMain .aboutTextbox .aboutText {
-      font-size: .8rem;
-      line-height: 1.2rem;
-      padding: 5% 5%;
-      text-align: left; }
-  .leftSidebarMain .sidebarMenu {
-    padding-top: 2%; }
-    .leftSidebarMain .sidebarMenu .sidebarTabs {
-      height: 27px;
-      width: 202px;
-      background: -webkit-linear-gradient(left, #cc0a4a 0%, #ff0073 100%);
-      margin: 0;
-      margin-left: 10%; }
-    .leftSidebarMain .sidebarMenu .sidebarMenuText {
-      color: white;
-      color: #C1BEBC;
-      text-align: left;
-      padding-left: 5%; }
-      .leftSidebarMain .sidebarMenu .sidebarMenuText a {
-        text-decoration: none;
-        color: white; }
-    .leftSidebarMain .sidebarMenu .sidebarTabs:hover .sidebarMenuText {
-      cursor: pointer; }
+
+.aboutTextbox {
+  height: 54%;
+  width: 80%;
+  background-color: #F9F8F7;
+  margin-left: 10%;
+  margin-top: 8%; }
+  .aboutTextbox .aboutText {
+    font-size: .8rem;
+    line-height: 1.2rem;
+    padding: 5% 5%;
+    text-align: left; }
+
+.mainTextbox {
+  margin-left: 13%;
+  margin-top: 5%;
+  width: 75%; }
+  .mainTextbox .mainText {
+    color: white;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    padding: 0 0;
+    text-align: center; }
+  .mainTextbox .boldText {
+    font-weight: bold;
+    font-size: 1.2rem; }
+
+.sidebarMenu {
+  padding-top: 2%;
+  margin-left: 10%; }
+  .sidebarMenu .sidebarTabs {
+    height: 27px;
+    width: 202px;
+    background: -webkit-linear-gradient(left, #cc0a4a 0%, #ff0073 100%);
+    margin: 0; }
+  .sidebarMenu .sidebarMenuText {
+    color: white;
+    color: #C1BEBC;
+    text-align: left;
+    padding-left: 5%; }
+    .sidebarMenu .sidebarMenuText a {
+      text-decoration: none;
+      color: white; }
+  .sidebarMenu .sidebarTabs:hover .sidebarMenuText {
+    cursor: pointer; }
+
+.mainSidebarMenu {
+  margin-left: 13%; }
+  .mainSidebarMenu .mainSidebarTabs {
+    width: 83%; }
 
 .aboutImg {
-  height: 50%;
   width: 80%;
   margin-left: 10%;
   margin-top: 15%; }
+
+.mainImg {
+  width: 72%;
+  margin-top: 10%;
+  margin-left: 13%; }
 
 .rightSidebarLanding {
   height: 100vh;
@@ -79,12 +104,11 @@ h1, h2, h3, h4, h5, h6, p {
   float: right;
   background-color: #2F2E2C; }
   .rightSidebarLanding .imgMain {
-    height: 80%;
+    height: 100%;
     width: 100%;
-    margin-top: 4%;
     position: relative; }
     .rightSidebarLanding .imgMain img {
-      height: 100%;
+      height: 80%;
       width: 100%; }
     .rightSidebarLanding .imgMain .imgOverlay {
       position: absolute;
@@ -94,6 +118,14 @@ h1, h2, h3, h4, h5, h6, p {
       width: 100%;
       background-color: rgba(0, 0, 0, 0.7); }
 
+.wordCloudMain {
+  background-image: url("../images/portfolioLandingImg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%; }
+
 .rightSidebarMain {
   height: 100vh;
   width: 80%;
@@ -102,8 +134,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .socialIcons {
   text-align: right;
-  margin-right: 2%;
-  margin-top: 2%; }
+  margin-right: 3%;
+  margin-top: 2.5%; }
   .socialIcons ul > li {
     display: inline;
     list-style: none; }
@@ -134,7 +166,7 @@ h1, h2, h3, h4, h5, h6, p {
     top: -12px;
     left: 72px;
     color: white;
-    opacity: 0; }
+    opacity: 0.3; }
     .tabs .tabText a {
       text-decoration: none;
       color: white; }
