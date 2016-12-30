@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #B5B3B1; }
   .leftSidebarLanding .logo {
     margin-top: 3%;
-    margin-left: 12%; }
+    margin-left: 11%; }
     .leftSidebarLanding .logo .imgLogo {
       height: 80px;
       width: 80px; }
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6, p {
   float: left;
   background-color: #C1BEBC; }
   .leftSidebarMain .logo {
-    margin-top: 3%;
+    margin-top: 6%;
     margin-left: 8%; }
     .leftSidebarMain .logo .imgLogo {
       height: 60px;
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, p {
       margin-left: -5px; }
 
 .aboutTextbox {
-  height: 54%;
+  height: 51%;
   width: 80%;
   background-color: #F9F8F7;
   margin-left: 10%;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: left; }
 
 .mainTextbox {
-  margin-left: 13%;
+  margin-left: 12%;
   margin-top: 5%;
   width: 75%; }
   .mainTextbox .mainText {
@@ -82,9 +82,12 @@ h1, h2, h3, h4, h5, h6, p {
       color: white; }
   .sidebarMenu .sidebarTabs:hover .sidebarMenuText {
     cursor: pointer; }
+    .sidebarMenu .sidebarTabs:hover .sidebarMenuText a {
+      color: #2F2E2C;
+      font-weight: bolder; }
 
 .mainSidebarMenu {
-  margin-left: 13%; }
+  margin-left: 12%; }
   .mainSidebarMenu .mainSidebarTabs {
     width: 83%; }
 
@@ -96,7 +99,7 @@ h1, h2, h3, h4, h5, h6, p {
 .mainImg {
   width: 72%;
   margin-top: 10%;
-  margin-left: 13%; }
+  margin-left: 12%; }
 
 .rightSidebarLanding {
   height: 100vh;
