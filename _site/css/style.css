@@ -9,16 +9,18 @@ h1, h2, h3, h4, h5, h6, p {
 .leftSidebarLanding {
   height: 100vh;
   width: 30%;
+  overflow: hidden;
   float: left;
   background-color: #B5B3B1; }
   .leftSidebarLanding .logo {
     margin-top: 3%;
     margin-left: 11%; }
     .leftSidebarLanding .logo .imgLogo {
-      height: 80px;
-      width: 80px; }
+      height: 24%;
+      width: 24%; }
     .leftSidebarLanding .logo .imgName {
-      height: 80px;
+      height: 30%;
+      width: 49%;
       position: relative;
       margin-left: -5px; }
 
@@ -80,10 +82,13 @@ h1, h2, h3, h4, h5, h6, p {
     .sidebarMenu .sidebarMenuText a {
       text-decoration: none;
       color: white; }
-  .sidebarMenu .sidebarTabs:hover .sidebarMenuText {
-    cursor: pointer; }
-    .sidebarMenu .sidebarTabs:hover .sidebarMenuText a {
-      color: #ABA6A2; }
+  .sidebarMenu .sidebarTabs:hover {
+    background: -webkit-linear-gradient(left, #ff0073 0%, #ff0073 100%); }
+    .sidebarMenu .sidebarTabs:hover .sidebarMenuText {
+      cursor: pointer; }
+      .sidebarMenu .sidebarTabs:hover .sidebarMenuText a {
+        color: #2F2E2C;
+        transition: color .3s linear; }
 
 .mainSidebarMenu {
   margin-left: 12%; }
@@ -132,10 +137,18 @@ h1, h2, h3, h4, h5, h6, p {
       padding-right: 1%;
       font-size: 23px; }
     .socialIcons ul > li a:hover {
-      color: #F9F8F7; }
+      color: #B5B3B1;
+      transition: color .5s linear; }
 
-.menuTabs {
-  padding-top: 14%; }
+.socialIconsMobile {
+  text-align: left;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  display: none; }
+  .socialIconsMobile ul > li > a:hover {
+    color: white;
+    transition: color .4s linear; }
 
 .aboutBox {
   height: 85%;
@@ -162,3 +175,83 @@ h1, h2, h3, h4, h5, h6, p {
       .aboutBox .skillsSection .aboutSkills .skills {
         font-size: 1.2rem;
         color: #cc0a4a; }
+
+@media (min-width: 479px) and (max-width: 767px) {
+  .rightSidebarLanding {
+    clear: both;
+    display: none; }
+
+  .leftSidebarLanding {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .leftSidebarLanding .logo {
+      margin-left: 21%; }
+      .leftSidebarLanding .logo .imgLogo {
+        height: 14%;
+        width: 14%; }
+      .leftSidebarLanding .logo .imgName {
+        height: 13%;
+        width: 30%; }
+
+  .mainImg {
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8%; }
+
+  .mainTextbox {
+    margin: 0 auto;
+    margin-top: 4%;
+    width: 55%; }
+    .mainTextbox .mainText {
+      font-size: 1rem; }
+    .mainTextbox .boldText {
+      font-weight: bold;
+      font-size: 1.3rem; }
+
+  .mainSidebarMenu {
+    margin-left: 21%; }
+    .mainSidebarMenu .mainSidebarTabs {
+      width: 72%; }
+
+  .socialIconsMobile {
+    padding-left: 14%;
+    display: block; } }
+@media (max-width: 479px) {
+  .rightSidebarLanding {
+    clear: both;
+    display: none; }
+
+  .leftSidebarLanding {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .leftSidebarLanding .logo {
+      margin-left: 19%; }
+      .leftSidebarLanding .logo .imgLogo {
+        height: 18%;
+        width: 18%; }
+      .leftSidebarLanding .logo .imgName {
+        height: 15%;
+        width: 38%; }
+
+  .mainImg {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8%; }
+
+  .mainTextbox {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 64%; }
+
+  .mainSidebarMenu {
+    margin-left: 20%; }
+    .mainSidebarMenu .mainSidebarTabs {
+      width: 75%; }
+
+  .socialIconsMobile {
+    padding-left: 10%;
+    display: block; } }
