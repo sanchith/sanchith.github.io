@@ -39,9 +39,11 @@ h1, h2, h3, h4, h5, h6, p {
 .leftSidebarMain {
   height: 100vh;
   width: 20%;
+  overflow: hidden;
   float: left;
   // background-color: #ABA6A2;
-  background-color: #C1BEBC;
+  // background-color: #C1BEBC;
+  background-color: #B5B3B1;
   .logo {
     margin-top: 6%;
     margin-left: 8%;
@@ -58,7 +60,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .aboutTextbox {
-  height: 51%;
+  // height: 51%;
   width: 80%;
   background-color: #F9F8F7;
   margin-left: 10%;
@@ -92,8 +94,10 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 2%;
   margin-left: 10%;
   .sidebarTabs {
-    height: 27px;
-    width: 202px;
+    // height: 27px;
+    // width: 202px;
+    // height: 2%;
+    width: 89%;
     background: -webkit-linear-gradient(left, #cc0a4a 0%,#ff0073 100%);
     margin: 0;
   }
@@ -160,6 +164,8 @@ h1, h2, h3, h4, h5, h6, p {
   width: 80%;
   float: right;
   background-color: #2F2E2C;
+  // background-color: #EAE9E8;
+  // background-color: #DDDCDB;
 }
 
 .socialIcons {
@@ -194,6 +200,16 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
+// .socialIconsMain {
+//   ul>li>a {
+//     color: lightgrey;
+//   }
+//   ul>li>a:hover {
+//     color: #B5B3B1;
+//     transition: color .4s linear;
+//   }
+// }
+
 .aboutBox {
   height: 85%;
   width: 90%;
@@ -226,7 +242,54 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
+.projectsTitle {
+  color: lightgrey;
+  padding-left: 10%;
+  margin: 0;
+}
+
+.projectsSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+// .individualProjects {
+//   height: 220px;
+//   width: 270px;
+//   h1, h2, p, a {
+//     color: white;
+//   }
+//   a {
+//     text-decoration: none;
+//     img {
+//       height: 200px;
+//       width: 250px;
+//     }
+//   }
+// }
+
+.project {
+  padding: 3% 9%;
+  // padding-right: 12%;
+  img {
+    height: 200px;
+    width: 300px;
+    border: 5px solid lightgrey;
+  }
+  // .embark {
+  //   border: 5px solid lightgrey;
+  // }
+}
+
 // media queries
+@media (min-width: 768px) and (max-width: 978px) {
+
+}
+
 @media (min-width: 479px) and (max-width: 767px) {
   .rightSidebarLanding {
     clear: both;

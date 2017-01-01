@@ -27,8 +27,9 @@ h1, h2, h3, h4, h5, h6, p {
 .leftSidebarMain {
   height: 100vh;
   width: 20%;
+  overflow: hidden;
   float: left;
-  background-color: #C1BEBC; }
+  background-color: #B5B3B1; }
   .leftSidebarMain .logo {
     margin-top: 6%;
     margin-left: 8%; }
@@ -41,7 +42,6 @@ h1, h2, h3, h4, h5, h6, p {
       margin-left: -5px; }
 
 .aboutTextbox {
-  height: 51%;
   width: 80%;
   background-color: #F9F8F7;
   margin-left: 10%;
@@ -70,8 +70,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 2%;
   margin-left: 10%; }
   .sidebarMenu .sidebarTabs {
-    height: 27px;
-    width: 202px;
+    width: 89%;
     background: -webkit-linear-gradient(left, #cc0a4a 0%, #ff0073 100%);
     margin: 0; }
   .sidebarMenu .sidebarMenuText {
@@ -175,6 +174,26 @@ h1, h2, h3, h4, h5, h6, p {
       .aboutBox .skillsSection .aboutSkills .skills {
         font-size: 1.2rem;
         color: #cc0a4a; }
+
+.projectsTitle {
+  color: lightgrey;
+  padding-left: 10%;
+  margin: 0; }
+
+.projectsSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  margin: 0 auto; }
+
+.project {
+  padding: 3% 9%; }
+  .project img {
+    height: 200px;
+    width: 300px;
+    border: 5px solid lightgrey; }
 
 @media (min-width: 479px) and (max-width: 767px) {
   .rightSidebarLanding {
