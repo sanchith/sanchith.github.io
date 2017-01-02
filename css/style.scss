@@ -148,9 +148,10 @@ h1, h2, h3, h4, h5, h6, p {
   width: 70%;
   // overflow: hidden;
   float: right;
-  background-color: #2F2E2C;
+  // background-color: #2F2E2C;
+  background-color: #EAEAEA;
   .wordCloudLanding {
-    background-image: url("../images/portfolioLandingImg.png");
+    background-image: url("../images/portfolioLandingImg1.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -163,7 +164,9 @@ h1, h2, h3, h4, h5, h6, p {
   height: 100vh;
   width: 80%;
   float: right;
-  background-color: #2F2E2C;
+  background-color: #EAEAEA;
+  // background-color: #E2E1E0;
+  // background-color: #2F2E2C;
   // background-color: #EAE9E8;
   // background-color: #DDDCDB;
 }
@@ -182,7 +185,7 @@ h1, h2, h3, h4, h5, h6, p {
       font-size: 23px;
     }
     a:hover {
-      color: #B5B3B1;
+      color: #595959;
       transition: color .5s linear;
     }
   }
@@ -223,6 +226,9 @@ h1, h2, h3, h4, h5, h6, p {
     color: #cc0a4a;
     text-align: center;
   }
+ }
+
+ .aboutBox{
   .aboutBoxText {
     color: black;
     padding: 1% 6%;
@@ -243,8 +249,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .projectsTitle {
-  color: lightgrey;
-  padding-left: 10%;
+  color: #cc0a4a;
+  // padding-left: 10%;
+  text-align: center;
   margin: 0;
 }
 
@@ -273,12 +280,11 @@ h1, h2, h3, h4, h5, h6, p {
 // }
 
 .project {
-  padding: 3% 9%;
-  // padding-right: 12%;
+  padding: 3% 3%;
   img {
-    height: 200px;
-    width: 300px;
-    border: 5px solid lightgrey;
+    height: 180px;
+    width: 280px;
+    border: 5px solid white;
   }
   // .embark {
   //   border: 5px solid lightgrey;

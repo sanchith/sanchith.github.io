@@ -108,9 +108,9 @@ h1, h2, h3, h4, h5, h6, p {
   height: 100vh;
   width: 70%;
   float: right;
-  background-color: #2F2E2C; }
+  background-color: #EAEAEA; }
   .rightSidebarLanding .wordCloudLanding {
-    background-image: url("../images/portfolioLandingImg.png");
+    background-image: url("../images/portfolioLandingImg1.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 100vh;
   width: 80%;
   float: right;
-  background-color: #2F2E2C; }
+  background-color: #EAEAEA; }
 
 .socialIcons {
   text-align: right;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6, p {
       padding-right: 1%;
       font-size: 23px; }
     .socialIcons ul > li a:hover {
-      color: #B5B3B1;
+      color: #595959;
       transition: color .5s linear; }
 
 .socialIconsMobile {
@@ -162,22 +162,23 @@ h1, h2, h3, h4, h5, h6, p {
   .aboutBox .aboutTitle {
     color: #cc0a4a;
     text-align: center; }
-  .aboutBox .aboutBoxText {
-    color: black;
-    padding: 1% 6%; }
-  .aboutBox .skillsSection {
-    margin-left: 6%; }
-    .aboutBox .skillsSection .aboutSkills {
-      width: 90%; }
-      .aboutBox .skillsSection .aboutSkills p {
-        color: black; }
-      .aboutBox .skillsSection .aboutSkills .skills {
-        font-size: 1.2rem;
-        color: #cc0a4a; }
+
+.aboutBox .aboutBoxText {
+  color: black;
+  padding: 1% 6%; }
+.aboutBox .skillsSection {
+  margin-left: 6%; }
+  .aboutBox .skillsSection .aboutSkills {
+    width: 90%; }
+    .aboutBox .skillsSection .aboutSkills p {
+      color: black; }
+    .aboutBox .skillsSection .aboutSkills .skills {
+      font-size: 1.2rem;
+      color: #cc0a4a; }
 
 .projectsTitle {
-  color: lightgrey;
-  padding-left: 10%;
+  color: #cc0a4a;
+  text-align: center;
   margin: 0; }
 
 .projectsSection {
@@ -189,11 +190,11 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 auto; }
 
 .project {
-  padding: 3% 9%; }
+  padding: 3% 3%; }
   .project img {
-    height: 200px;
-    width: 300px;
-    border: 5px solid lightgrey; }
+    height: 180px;
+    width: 280px;
+    border: 5px solid white; }
 
 @media (min-width: 479px) and (max-width: 767px) {
   .rightSidebarLanding {
