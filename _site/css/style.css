@@ -192,9 +192,15 @@ h1, h2, h3, h4, h5, h6, p {
 .project {
   padding: 3% 3%; }
   .project img {
-    height: 180px;
-    width: 280px;
+    height: 200px;
+    width: 290px;
     border: 5px solid white; }
+  .project .squareImg {
+    height: 230px; }
+  .project .verticalImg {
+    height: 400px; }
+  .project .greyBorder {
+    border: 5px solid #EAEAEA; }
 
 @media (min-width: 479px) and (max-width: 767px) {
   .rightSidebarLanding {
