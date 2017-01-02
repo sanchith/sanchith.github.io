@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 30%;
   overflow: hidden;
   float: left;
-  background-color: #B5B3B1; }
+  background-color: #9a9998; }
   .leftSidebarLanding .logo {
     margin-top: 3%;
     margin-left: 11%; }
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 20%;
   overflow: hidden;
   float: left;
-  background-color: #B5B3B1; }
+  background-color: #9a9998; }
   .leftSidebarMain .logo {
     margin-top: 6%;
     margin-left: 8%; }
@@ -86,8 +86,7 @@ h1, h2, h3, h4, h5, h6, p {
     .sidebarMenu .sidebarTabs:hover .sidebarMenuText {
       cursor: pointer; }
       .sidebarMenu .sidebarTabs:hover .sidebarMenuText a {
-        color: #2F2E2C;
-        transition: color .3s linear; }
+        color: #2F2E2C; }
 
 .mainSidebarMenu {
   margin-left: 12%; }
@@ -110,7 +109,7 @@ h1, h2, h3, h4, h5, h6, p {
   float: right;
   background-color: #EAEAEA; }
   .rightSidebarLanding .wordCloudLanding {
-    background-image: url("../images/portfolioLandingImg2.png");
+    background-image: url("../images/portfolioLandingImg.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -136,7 +135,7 @@ h1, h2, h3, h4, h5, h6, p {
       padding-right: 1%;
       font-size: 23px; }
     .socialIcons ul > li a:hover {
-      color: #595959;
+      color: #2f2e2c;
       transition: color .5s linear; }
 
 .socialIconsMobile {
