@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6, p {
 .projectsSection {
   margin-top: 4.5%;
   margin-bottom: 5%;
-  margin-left: 3%;
+  margin-left: 2.5%;
   .projectItem {
     // background-color: #F9F8F7;
     background-color: white;
@@ -325,7 +325,9 @@ h1, h2, h3, h4, h5, h6, p {
       width: 68%;
       margin-top: 2%;
       p {
-          margin-right: 2%;
+          margin-right: 5.5%;
+          margin-left: 1%;
+          text-align: justify;
           // margin-left: 2%;
           a {
             color: #2F2E2C;

@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6, p {
 .projectsSection {
   margin-top: 4.5%;
   margin-bottom: 5%;
-  margin-left: 3%; }
+  margin-left: 2.5%; }
   .projectsSection .projectItem {
     background-color: white;
     height: 250px;
@@ -213,7 +213,9 @@ h1, h2, h3, h4, h5, h6, p {
       width: 68%;
       margin-top: 2%; }
       .projectsSection .projectItem .projectText p {
-        margin-right: 2%; }
+        margin-right: 5.5%;
+        margin-left: 1%;
+        text-align: justify; }
         .projectsSection .projectItem .projectText p a {
           color: #2F2E2C; }
         .projectsSection .projectItem .projectText p a:hover {
