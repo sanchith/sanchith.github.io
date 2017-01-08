@@ -74,6 +74,10 @@ h1, h2, h3, h4, h5, h6, p {
     width: 89%;
     background: -webkit-linear-gradient(left, #cc0a4a 0%, #ff0073 100%);
     margin: 0; }
+  .sidebarMenu .active {
+    background: -webkit-linear-gradient(left, #ff0073 0%, #ff0073 100%); }
+    .sidebarMenu .active .sidebarMenuText a {
+      color: #2F2E2C; }
   .sidebarMenu .sidebarMenuText {
     text-align: left;
     padding-left: 5%; }
@@ -95,11 +99,11 @@ h1, h2, h3, h4, h5, h6, p {
 .aboutImg {
   width: 80%;
   margin-left: 10%;
-  margin-top: 15%; }
+  margin-top: 8%; }
 
 .mainImg {
   width: 72%;
-  margin-top: 10%;
+  margin-top: 14%;
   margin-left: 12%; }
 
 .rightSidebarLanding {
@@ -116,6 +120,12 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%; }
 
 .rightSidebarMain {
+  width: 80%;
+  float: right;
+  background-color: #EAEAEA; }
+
+.rightSidebarBlog {
+  height: 100vh;
   width: 80%;
   float: right;
   background-color: #EAEAEA; }
@@ -153,7 +163,6 @@ h1, h2, h3, h4, h5, h6, p {
     transition: color .5s linear; }
 
 .aboutBox {
-  height: 85%;
   margin: 2% 5%;
   margin-top: 4.7%;
   background-color: #F9F8F7;
@@ -164,7 +173,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .aboutBox .aboutBoxText {
   color: black;
-  padding: 1% 6%; }
+  padding: 1% 6%;
+  text-align: justify; }
 .aboutBox .skillsSection {
   margin-left: 6%; }
   .aboutBox .skillsSection .aboutSkills {

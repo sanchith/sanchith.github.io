@@ -104,6 +104,14 @@ h1, h2, h3, h4, h5, h6, p {
     background: -webkit-linear-gradient(left, #cc0a4a 0%,#ff0073 100%);
     margin: 0;
   }
+  .active {
+    background: -webkit-linear-gradient(left, #ff0073 0%,#ff0073 100%);
+    .sidebarMenuText {
+      a{
+        color: #2F2E2C;
+      }
+    }
+  }
   .sidebarMenuText {
     // color: white;
     // color: #C1BEBC;
@@ -137,12 +145,12 @@ h1, h2, h3, h4, h5, h6, p {
 .aboutImg {
   width: 80%;
   margin-left: 10%;
-  margin-top: 15%;
+  margin-top: 8%;
 }
 
 .mainImg {
   width: 72%;
-  margin-top: 10%;
+  margin-top: 14%;
   margin-left: 12%;
 }
 
@@ -173,6 +181,13 @@ h1, h2, h3, h4, h5, h6, p {
   // background-color: #2F2E2C;
   // background-color: #EAE9E8;
   // background-color: #DDDCDB;
+}
+
+.rightSidebarBlog {
+  height: 100vh;
+  width: 80%;
+  float: right;
+  background-color: #EAEAEA;
 }
 
 .socialIcons {
@@ -217,7 +232,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .aboutBox {
-  height: 85%;
+  // height: 85%;
   // width: 90%;
   margin: 2% 5%;
   margin-top: 4.7%;
@@ -236,6 +251,7 @@ h1, h2, h3, h4, h5, h6, p {
   .aboutBoxText {
     color: black;
     padding: 1% 6%;
+    text-align: justify;
   }
   .skillsSection {
     margin-left: 6%;
