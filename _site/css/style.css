@@ -154,13 +154,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 .aboutBox {
   height: 85%;
-  width: 90%;
   margin: 2% 5%;
+  margin-top: 4.7%;
   background-color: #F9F8F7;
-  border: solid 1px #ff0073;
-  padding: 5px;
-  background-clip: content-box;
-  /* support: IE9+ */
   overflow-y: scroll; }
   .aboutBox .aboutTitle {
     color: #cc0a4a;
@@ -179,21 +175,29 @@ h1, h2, h3, h4, h5, h6, p {
       font-size: 1.2rem;
       color: #cc0a4a; }
 
-.project {
+.designSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  margin: 0 auto; }
+
+.design {
   padding: 3% 3%; }
-  .project img {
+  .design img {
     height: 200px;
     width: 300px;
     border: 5px solid white; }
-  .project .squareImg {
+  .design .squareImg {
     height: 230px; }
-  .project .verticalImg {
+  .design .verticalImg {
     height: 400px; }
-  .project .greyBorder {
+  .design .greyBorder {
     border: 5px solid #EAEAEA; }
 
 .projectsSection {
-  margin-top: 4.5%;
+  margin-top: 4.7%;
   margin-bottom: 5%;
   margin-left: 2.5%; }
   .projectsSection .projectItem {
