@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, p {
   float: right;
   background-color: #2F2E2C; }
   .rightSidebarLanding .wordCloudLanding {
-    background-image: url("../images/portfolioLandingImg1.png");
+    background-image: url("../images/portfolioLanding.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -146,9 +146,11 @@ h1, h2, h3, h4, h5, h6, p {
     color: white;
     transition: color .5s linear; }
 
-.socialIconsMain ul > li > a:hover {
-  color: #2F2E2C;
-  transition: color .5s linear; }
+.socialIconsMain {
+  margin-right: 3%; }
+  .socialIconsMain ul > li > a:hover {
+    color: #2F2E2C;
+    transition: color .5s linear; }
 
 .aboutBox {
   height: 85%;
