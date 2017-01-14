@@ -290,18 +290,19 @@ h1, h2, h3, h4, h5, h6, p {
    clear: both;
    float: left;
    width: 60%;
-   padding-left: 4%;
+   padding-left: 2%;
    img {
-     width: 90%;
+     width: 87.5%;
+     margin-left: 3.5%;
    }
  }
 
  .projectImagesRight {
    float: right;
    width: 35%;
-  //  margin-top: 3%;
+   margin-right: 3%;
    img {
-     width: 89%;
+     width: 96%;
    }
  }
 
@@ -431,6 +432,22 @@ h1, h2, h3, h4, h5, h6, p {
           }
       }
     }
+  }
+}
+
+.landingPage {
+  img {
+    // height: 80%;
+    width: 92%;
+    margin-left: 4%;
+  }
+}
+
+.logoProcess {
+  img {
+    // height: 60%;
+    width: 92%;
+    margin-left: 4%;
   }
 }
 
