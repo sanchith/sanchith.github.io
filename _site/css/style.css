@@ -303,6 +303,11 @@ h1, h2, h3, h4, h5, h6, p {
   width: 92%;
   margin-left: 4%; }
 
+.wireframes {
+  margin-left: 4%; }
+  .wireframes img {
+    width: 96%; }
+
 @media (min-width: 479px) and (max-width: 767px) {
   .rightSidebarLanding {
     clear: both;
