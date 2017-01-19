@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 30%;
   overflow: hidden;
   float: left;
-  background-color: #B5B3B1; }
+  background-color: #CECECE; }
   .leftSidebarLanding .logo {
     margin-top: 3%;
     margin-left: 11%; }
@@ -303,9 +303,9 @@ h1, h2, h3, h4, h5, h6, p {
   width: 92%;
   margin-left: 4%; }
 
-.wireframes {
+.projectImages {
   margin-left: 4%; }
-  .wireframes img {
+  .projectImages img {
     width: 96%; }
 
 @media (min-width: 479px) and (max-width: 767px) {
