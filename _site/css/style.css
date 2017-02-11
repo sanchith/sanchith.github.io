@@ -1,13 +1,14 @@
 body {
   margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   background-image: url("../images/backgroundPattern1.png");
   background-position: center;
   background-size: contain;
   background-repeat: repeat;
   background-attachment: fixed; }
 
-h1, h2, h3, h4, h5, h6, p {
-  font-family: 'helvetica neue', sans-serif;
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Raleway', sans-serif;
   line-height: 1.6;
   letter-spacing: 0.05em; }
 
@@ -95,7 +96,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 1.2%;
   max-width: 800px;
   margin: 0 auto;
-  margin-bottom: 1%; }
+  margin-bottom: 1.5%; }
   .categoryContainer .categoryItem {
     width: 180px;
     height: 270px;
@@ -569,7 +570,8 @@ a {
         .projectsSection .projectItem .projectText p a {
           color: #4B4949; }
           .projectsSection .projectItem .projectText p a .projectLink {
-            font-weight: bolder; }
+            font-weight: bold;
+            font-size: 1.1rem; }
         .projectsSection .projectItem .projectText p a:hover {
           color: #c7b157; }
 
@@ -596,83 +598,3 @@ a {
   margin-left: 4%; }
   .projectImages img {
     width: 96%; }
-
-@media (min-width: 479px) and (max-width: 767px) {
-  .rightSidebarLanding {
-    clear: both;
-    display: none; }
-
-  .leftSidebarLanding {
-    height: 100%;
-    width: 100%;
-    overflow: hidden; }
-    .leftSidebarLanding .logo {
-      margin-left: 21%; }
-      .leftSidebarLanding .logo .imgLogo {
-        height: 14%;
-        width: 14%; }
-      .leftSidebarLanding .logo .imgName {
-        height: 13%;
-        width: 30%; }
-
-  .mainImg {
-    width: 55%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 8%; }
-
-  .mainTextbox {
-    margin: 0 auto;
-    margin-top: 4%;
-    width: 55%; }
-    .mainTextbox .mainText {
-      font-size: 1rem; }
-    .mainTextbox .boldText {
-      font-weight: bold;
-      font-size: 1.3rem; }
-
-  .mainSidebarMenu {
-    margin-left: 21%; }
-    .mainSidebarMenu .mainSidebarTabs {
-      width: 72%; }
-
-  .socialIconsMobile {
-    padding-left: 14%;
-    display: block; } }
-@media (max-width: 479px) {
-  .rightSidebarLanding {
-    clear: both;
-    display: none; }
-
-  .leftSidebarLanding {
-    height: 100%;
-    width: 100%;
-    overflow: hidden; }
-    .leftSidebarLanding .logo {
-      margin-left: 19%; }
-      .leftSidebarLanding .logo .imgLogo {
-        height: 18%;
-        width: 18%; }
-      .leftSidebarLanding .logo .imgName {
-        height: 15%;
-        width: 38%; }
-
-  .mainImg {
-    width: 60%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 8%; }
-
-  .mainTextbox {
-    margin: 0 auto;
-    margin-top: 5%;
-    width: 64%; }
-
-  .mainSidebarMenu {
-    margin-left: 20%; }
-    .mainSidebarMenu .mainSidebarTabs {
-      width: 75%; }
-
-  .socialIconsMobile {
-    padding-left: 10%;
-    display: block; } }
