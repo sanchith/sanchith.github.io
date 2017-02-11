@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   padding-top: 1.2%;
   max-width: 800px;
   margin: 0 auto;
-  margin-bottom: 1.5%; }
+  margin-bottom: 1%; }
   .categoryContainer .categoryItem {
     width: 180px;
     height: 270px;
@@ -598,3 +598,13 @@ a {
   margin-left: 4%; }
   .projectImages img {
     width: 96%; }
+
+@media (max-width: 768px) {
+  .projectLeft {
+    clear: both;
+    float: none;
+    width: 100%; }
+
+  .projectRight {
+    float: none;
+    width: 100%; } }
