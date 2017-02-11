@@ -4,7 +4,14 @@
 
 body {
   margin: 0;
-  background-color: #efe7d8;
+  // background-color: #efe7d8;
+  background-image: url("../images/backgroundPattern1.png");
+  background-position: center;
+  background-size:  contain;
+  background-repeat: repeat;
+  // background-clip: border-box;
+  // height: 1000px;
+  // width: 1000px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
