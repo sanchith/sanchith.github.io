@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   overflow: hidden;
   width: 90%;
   margin: 2%;
-  margin-left: 5%;
+  margin-left: 5.4%;
   margin-top: 3.9%;
   background-color: white; }
 
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     .aboutSection .aboutContainer .aboutSectionPic {
       width: 330px;
       padding-left: 3%;
-      padding-top: 3%; }
+      padding-top: 3.5%; }
       .aboutSection .aboutContainer .aboutSectionPic .aboutSectionImg {
         width: 100%; }
     .aboutSection .aboutContainer .aboutSectionSkills {
