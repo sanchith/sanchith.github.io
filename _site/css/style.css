@@ -20,7 +20,32 @@ h1, h2, h3, h4, h5, h6, p, a {
   margin-top: 3.9%;
   background-color: white; }
 
+.topNavMobile {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px; }
+  .topNavMobile ul {
+    margin-bottom: 0; }
+    .topNavMobile ul li {
+      display: none;
+      list-style: none; }
+      .topNavMobile ul li a {
+        color: #4B4949;
+        text-decoration: none;
+        margin-right: 4%;
+        padding-bottom: 5px;
+        font-size: 11px; }
+      .topNavMobile ul li .active {
+        color: #c7b157;
+        border-bottom: 3px solid #c7b157; }
+      .topNavMobile ul li a:hover {
+        color: #c7b157;
+        transition: color .3s linear;
+        border-bottom: 3px solid #c7b157; }
+
 .topNavLeft {
+  clear: both;
   float: left;
   width: 50%;
   margin-left: 3%;
@@ -603,4 +628,16 @@ a {
 
   .projectRight {
     float: none;
-    width: 100%; } }
+    width: 100%; }
+
+  .topNavLeft {
+    display: none; }
+
+  .topNav {
+    display: none; }
+
+  .topNavMobile ul li {
+    display: inline; }
+
+  .projectsSection .projectSectionTitle {
+    font-size: 2rem; } }
