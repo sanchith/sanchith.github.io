@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, p, a {
         color: #4B4949;
         text-decoration: none;
         margin-right: 4%;
-        padding-bottom: 3px;
+        padding-bottom: 5px;
         font-size: 13px;
       }
       .active {
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6, p, a {
         color: #c7b157;
         transition: color .5s linear;
         border-bottom: 3px solid #c7b157;
-        transition: border .3s linear;
+        // transition: border .3s linear;
       }
     }
   }
@@ -79,14 +79,14 @@ h1, h2, h3, h4, h5, h6, p, a {
         color: #4B4949;
         text-decoration: none;
         margin-right: 4%;
-        padding-bottom: 3px;
+        padding-bottom: 5px;
         font-size: 13px;
       }
       a:hover {
         color: #c7b157;
         transition: color .5s linear;
         border-bottom: 3px solid #c7b157;
-        transition: border .3s linear;
+        // transition: border .3s linear;
       }
     }
   }
