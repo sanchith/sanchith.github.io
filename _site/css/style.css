@@ -161,7 +161,8 @@ h1, h2, h3, h4, h5, h6, p, a {
       .socialIconsFooter ul li a {
         color: #4B4949;
         text-decoration: none;
-        padding-right: 1%;
+        padding-right: .5%;
+        padding-left: .5%;
         font-size: 20px; }
       .socialIconsFooter ul li a:hover {
         color: #c7b157;
@@ -668,7 +669,11 @@ a {
 
   .aboutSection .aboutSectionTitle {
     font-size: 2.2rem;
-    margin-top: 14%; } }
+    margin-top: 14%; }
+
+  .socialIconsFooter ul li a {
+    padding-right: .8%;
+    padding-left: .8%; } }
 @media (max-width: 479px) {
   .projectLeft {
     clear: both;
@@ -707,4 +712,8 @@ a {
 
   .aboutSection .aboutSectionTitle {
     font-size: 2rem;
-    margin-top: 20%; } }
+    margin-top: 20%; }
+
+  .socialIconsFooter ul li a {
+    padding-right: 1%;
+    padding-left: 1%; } }
