@@ -110,7 +110,8 @@ h1, h2, h3, h4, h5, h6, p, a {
     line-height: 1.5rem;
     padding: 0 0;
     margin-top: 0;
-    text-align: center; }
+    text-align: center;
+    font-weight: bolder; }
   .titleBox .boldText {
     font-size: 1.3rem; }
 
@@ -129,7 +130,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     height: 270px;
     text-align: center;
     object-fit: cover;
-    margin: 2%;
+    margin: 2.5%;
     cursor: pointer; }
     .categoryContainer .categoryItem a > img {
       width: 100%;
@@ -648,6 +649,14 @@ a {
     .topNavMobile ul li a {
       font-size: 12px; }
 
+  .titleBox .title {
+    margin-top: 10%;
+    font-size: 2.2rem; }
+  .titleBox .titleText {
+    font-size: .9rem; }
+  .titleBox .boldText {
+    font-size: 1.2rem; }
+
   .projectsSection .projectSectionTitle {
     font-size: 2.2rem;
     margin-top: 14%; }
@@ -676,6 +685,16 @@ a {
 
   .topNavMobile ul li {
     display: inline; }
+
+  .titleBox {
+    width: 91%; }
+    .titleBox .title {
+      margin-top: 17%;
+      font-size: 1.8rem; }
+    .titleBox .titleText {
+      font-size: .9rem; }
+    .titleBox .boldText {
+      font-size: 1.1rem; }
 
   .projectsSection .projectSectionTitle {
     font-size: 2rem;

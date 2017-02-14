@@ -146,9 +146,9 @@ h1, h2, h3, h4, h5, h6, p, a {
     padding: 0 0;
     margin-top: 0;
     text-align: center;
+    font-weight: bolder;
   }
   .boldText {
-    // font-weight: bold;
     font-size: 1.3rem;
   }
 }
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     height: 270px;
     text-align: center;
     object-fit: cover;
-    margin: 2%;
+    margin: 2.5%;
     cursor: pointer;
     a>img {
       width: 100%;
@@ -910,6 +910,19 @@ br {
     }
   }
 
+  .titleBox {
+    .title {
+      margin-top: 10%;
+      font-size: 2.2rem;
+    }
+    .titleText {
+      font-size: .9rem;
+    }
+      .boldText {
+        font-size: 1.2rem;
+      }
+  }
+
   .projectsSection {
     .projectSectionTitle {
       font-size: 2.2rem;
@@ -956,6 +969,20 @@ br {
       li {
         display: inline;
       }
+    }
+  }
+
+  .titleBox {
+    width: 91%;
+    .title {
+      margin-top: 17%;
+      font-size: 1.8rem;
+    }
+    .titleText {
+      font-size: .9rem;
+    }
+    .boldText {
+      font-size: 1.1rem;
     }
   }
 
