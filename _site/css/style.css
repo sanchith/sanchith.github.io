@@ -203,6 +203,7 @@ h1, h2, h3, h4, h5, h6, p, a {
         .aboutSection .aboutContainer .aboutSectionSkills .aboutSkillsText p {
           color: #4B4949;
           font-size: .95rem;
+          font-weight: bolder;
           text-align: justify; }
         .aboutSection .aboutContainer .aboutSectionSkills .aboutSkillsText .skills {
           font-size: 1rem;
@@ -211,6 +212,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   .aboutSection .aboutSectionText {
     color: #4B4949;
     padding: 1% 6%;
+    font-weight: bolder;
     text-align: justify; }
     .aboutSection .aboutSectionText a {
       color: #4B4949; }
@@ -592,14 +594,17 @@ a {
         margin-right: 5.5%;
         margin-left: 1%;
         text-align: justify;
-        color: #4B4949; }
+        color: #4B4949;
+        font-weight: bolder; }
         .projectsSection .projectItem .projectText p a {
           color: #4B4949; }
           .projectsSection .projectItem .projectText p a .projectLink {
             font-weight: bold;
-            font-size: 1.1rem; }
+            font-size: 1.1rem;
+            color: #c7b157; }
         .projectsSection .projectItem .projectText p a:hover {
-          color: #c7b157; }
+          padding-bottom: 3px;
+          border-bottom: 3px solid #c7b157; }
 
 .projectsSection hr, .workSection hr {
   width: 60%;

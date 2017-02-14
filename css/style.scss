@@ -265,6 +265,7 @@ h1, h2, h3, h4, h5, h6, p, a {
       p {
         color: #4B4949;
         font-size: .95rem;
+        font-weight: bolder;
         text-align: justify;
       }
       .skills {
@@ -279,6 +280,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     // clear: both;
     color: #4B4949;
     padding: 1% 6%;
+    font-weight: bolder;
     text-align: justify;
     a {
       color: #4B4949;
@@ -817,15 +819,20 @@ br {
           margin-left: 1%;
           text-align: justify;
           color: #4B4949;
+          font-weight: bolder;
           a {
             color: #4B4949;
             .projectLink {
             font-weight: bold;
             font-size: 1.1rem;
+            color: #c7b157;
             }
           }
           a:hover {
-            color: #c7b157;
+            // color: #c7b157;
+            padding-bottom: 3px;
+            border-bottom: 3px solid #c7b157;
+            // transition: border .3s linear;
           }
       }
     }
