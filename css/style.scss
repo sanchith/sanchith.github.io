@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, p, a {
       }
       .active {
         color: #c7b157;
-        // border-bottom: 3px solid #c7b157;
+        border-bottom: 3px solid #c7b157;
       }
       a:hover {
         color: #c7b157;
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   }
 }
 
-.topNav {
+.landingNav, .topNav {
   // text-align: right;
   float: right;
   width: 40%;
@@ -112,6 +112,10 @@ h1, h2, h3, h4, h5, h6, p, a {
         margin-right: 4%;
         padding-bottom: 5px;
         font-size: 13px;
+      }
+      .active {
+        color: #c7b157;
+        border-bottom: 3px solid #c7b157;
       }
       a:hover {
         color: #c7b157;
@@ -222,7 +226,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     color: #c7b157;
     text-align: center;
     margin-bottom: 2%;
-    margin-top: 7%;
+    margin-top: 10%;
     font-weight: normal;
     font-size: 2.5rem;
   }
@@ -774,7 +778,7 @@ br {
     color: #c7b157;
     text-align: center;
     margin-bottom: 2%;
-    margin-top: 7%;
+    margin-top: 10%;
     font-weight: normal;
     font-size: 2.5rem;
   }
@@ -871,7 +875,7 @@ br {
 }
 
 // media queries
-@media (max-width: 768px){
+@media (min-width: 479px) and (max-width: 768px) {
 
   .projectLeft {
     clear: both;
@@ -891,6 +895,62 @@ br {
     display: none;
   }
 
+  .landingNav {
+    width: 100%;
+  }
+
+  .topNavMobile {
+    ul {
+      li {
+        display: inline;
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .projectsSection {
+    .projectSectionTitle {
+      font-size: 2.2rem;
+      margin-top: 14%;
+    }
+  }
+
+  .aboutSection {
+    .aboutSectionTitle {
+      font-size: 2.2rem;
+      margin-top: 14%;
+    }
+  }
+
+}
+
+
+@media (max-width: 479px){
+
+  .projectLeft {
+    clear: both;
+    float: none;
+    width: 100%;
+  }
+  .projectRight {
+    float: none;
+    width: 100%;
+  }
+
+  .topNavLeft {
+    display: none;
+  }
+
+  .topNav {
+    display: none;
+  }
+
+  .landingNav {
+    width: 100%;
+  }
+
   .topNavMobile {
     ul {
       li {
@@ -902,6 +962,14 @@ br {
   .projectsSection {
     .projectSectionTitle {
       font-size: 2rem;
+      margin-top: 20%;
+    }
+  }
+
+  .aboutSection {
+    .aboutSectionTitle {
+      font-size: 2rem;
+      margin-top: 20%;
     }
   }
 
