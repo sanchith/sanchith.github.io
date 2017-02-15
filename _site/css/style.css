@@ -695,6 +695,27 @@ a {
   .titleBox .boldText {
     font-size: 1.2rem; }
 
+  .detailsContainer {
+    margin-top: 8%; }
+    .detailsContainer .detailsAbout {
+      clear: both;
+      float: none;
+      width: 100%;
+      margin: 0; }
+    .detailsContainer .detailsTools {
+      float: none;
+      width: 100%;
+      margin: 0;
+      margin-bottom: 10%; }
+
+  .detailsTitle {
+    font-size: 1.1rem;
+    padding: 0 10%;
+    padding-top: 8%; }
+
+  .detailsBlurb {
+    padding: 0 10%; }
+
   .projectsSection .projectSectionTitle {
     font-size: 2.2rem;
     margin-top: 14%; }
@@ -737,6 +758,27 @@ a {
       font-size: .9rem; }
     .titleBox .boldText {
       font-size: 1.1rem; }
+
+  .detailsContainer {
+    margin-top: 15%; }
+    .detailsContainer .detailsAbout {
+      clear: both;
+      float: none;
+      width: 100%;
+      margin: 0; }
+    .detailsContainer .detailsTools {
+      float: none;
+      width: 100%;
+      margin: 0;
+      margin-bottom: 11%; }
+
+  .detailsTitle {
+    font-size: 1rem;
+    padding: 0 10%;
+    padding-top: 11%; }
+
+  .detailsBlurb {
+    padding: 0 10%; }
 
   .projectsSection .projectSectionTitle {
     font-size: 2rem;

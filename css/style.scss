@@ -971,6 +971,35 @@ br {
       }
   }
 
+  .detailsContainer {
+    margin-top: 8%;
+    .detailsAbout {
+      clear: both;
+      float: none;
+      width: 100%;
+      // margin-left: 10%;
+      // margin-right: 10%;
+      margin: 0;
+    }
+    .detailsTools {
+      float: none;
+      width: 100%;
+      // margin-left: 10%;
+      // margin-right: 10%;
+      margin: 0;
+      margin-bottom: 10%;
+    }
+  }
+
+  .detailsTitle {
+    font-size: 1.1rem;
+    padding: 0 10%;
+    padding-top: 8%;
+  }
+  .detailsBlurb {
+    padding: 0 10%;
+  }
+
   .projectsSection {
     .projectSectionTitle {
       font-size: 2.2rem;
@@ -1043,6 +1072,31 @@ br {
     .boldText {
       font-size: 1.1rem;
     }
+  }
+
+  .detailsContainer {
+    margin-top: 15%;
+    .detailsAbout {
+      clear: both;
+      float: none;
+      width: 100%;
+      margin: 0;
+    }
+    .detailsTools {
+      float: none;
+      width: 100%;
+      margin: 0;
+      margin-bottom: 11%;
+    }
+  }
+
+  .detailsTitle {
+    font-size: 1rem;
+    padding: 0 10%;
+    padding-top: 11%;
+  }
+  .detailsBlurb {
+    padding: 0 10%;
   }
 
   .projectsSection {
