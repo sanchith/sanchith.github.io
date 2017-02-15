@@ -192,34 +192,33 @@ h1, h2, h3, h4, h5, h6, p, a {
   .detailsAbout {
     clear: both;
     float: left;
-    width: 56%;
-    margin: 6% 6%;
+    width: 55%;
+    margin: 6% 6.5%;
+    margin-bottom: 7%;
   }
   .detailsTools {
     float: right;
-    width: 27%;
+    width: 25%;
     margin: 6% 5%;
     margin-left: 0;
+    margin-right: 6.5%;
   }
 }
 
 .detailsTitle {
   font-size: 1.4rem;
   color: #c7b157;
-  // padding-left: 10%;
   margin: 0;
   margin-bottom: 0.5%;
 }
 .detailsBlurb {
   color: #4B4949;
-  // padding: 0 10%;
   margin: 0;
   text-align: left;
   font-size: .85rem;
   font-weight: bolder;
-  // .detailsSubTitle {
-  //   color: #c7b157;
-  // }
+  padding: 20px;
+  border: 2px solid #c7b157;
 }
 
 .footerContainer {
