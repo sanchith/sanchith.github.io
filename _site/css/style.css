@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     margin-left: 0; }
 
 .detailsTitle {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #c7b157;
   margin: 0;
   margin-bottom: 0.5%; }
@@ -169,8 +169,6 @@ h1, h2, h3, h4, h5, h6, p, a {
   text-align: left;
   font-size: .85rem;
   font-weight: bolder; }
-  .detailsBlurb .detailsSubTitle {
-    color: #c7b157; }
 
 .footerContainer {
   clear: both;
