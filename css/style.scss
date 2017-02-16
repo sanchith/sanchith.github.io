@@ -975,18 +975,22 @@ br {
     .detailsAbout {
       clear: both;
       float: none;
-      width: 100%;
+      width: 80%;
       // margin-left: 10%;
       // margin-right: 10%;
       margin: 0;
+      margin-left: 10%;
+      margin-bottom: 11%;
     }
     .detailsTools {
       float: none;
-      width: 100%;
+      width: 80%;
       // margin-left: 10%;
       // margin-right: 10%;
       margin: 0;
-      margin-bottom: 10%;
+      // margin-bottom: 10%;
+      margin-left: 10%;
+      margin-bottom: 11%;
     }
   }
 
@@ -1078,14 +1082,17 @@ br {
     .detailsAbout {
       clear: both;
       float: none;
-      width: 100%;
+      width: 80%;
       margin: 0;
+      margin-left: 10%;
+      margin-bottom: 11%;
     }
     .detailsTools {
       float: none;
-      width: 100%;
+      width: 80%;
       margin: 0;
       margin-bottom: 11%;
+      margin-left: 10%;
     }
   }
 

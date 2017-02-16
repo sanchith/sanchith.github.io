@@ -702,13 +702,16 @@ a {
     .detailsContainer .detailsAbout {
       clear: both;
       float: none;
-      width: 100%;
-      margin: 0; }
+      width: 80%;
+      margin: 0;
+      margin-left: 10%;
+      margin-bottom: 11%; }
     .detailsContainer .detailsTools {
       float: none;
-      width: 100%;
+      width: 80%;
       margin: 0;
-      margin-bottom: 10%; }
+      margin-left: 10%;
+      margin-bottom: 11%; }
 
   .detailsTitle {
     font-size: 1.1rem;
@@ -766,13 +769,16 @@ a {
     .detailsContainer .detailsAbout {
       clear: both;
       float: none;
-      width: 100%;
-      margin: 0; }
+      width: 80%;
+      margin: 0;
+      margin-left: 10%;
+      margin-bottom: 11%; }
     .detailsContainer .detailsTools {
       float: none;
-      width: 100%;
+      width: 80%;
       margin: 0;
-      margin-bottom: 11%; }
+      margin-bottom: 11%;
+      margin-left: 10%; }
 
   .detailsTitle {
     font-size: 1rem;
