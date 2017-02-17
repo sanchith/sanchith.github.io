@@ -16,9 +16,8 @@ h1, h2, h3, h4, h5, h6, p, a {
   overflow: hidden;
   width: 90%;
   margin: 2%;
-  margin-left: 5.3%;
+  margin-left: 5.4%;
   margin-top: 3.9%;
-  margin-bottom: 4.2%;
   background-color: white; }
 
 .topNavMobile {
@@ -151,27 +150,22 @@ h1, h2, h3, h4, h5, h6, p, a {
   .detailsContainer .detailsSubContainer {
     background-color: white;
     width: 90%;
-    overflow: hidden;
+    height: 620px;
     margin-top: 5%;
     margin-left: 5%;
     border: 2px solid #c7b157; }
     .detailsContainer .detailsSubContainer .detailsAbout {
       clear: both;
       float: left;
-      width: 25%;
-      margin: 2% 0;
-      margin-top: 3%;
-      margin-left: 6.5%; }
-    .detailsContainer .detailsSubContainer .detailsApproach {
-      float: left;
-      width: 25%;
-      margin: 2% 6.7%;
+      width: 55%;
+      margin: 2% 6.5%;
       margin-top: 3%; }
     .detailsContainer .detailsSubContainer .detailsTools {
-      float: left;
+      float: right;
       width: 25%;
-      margin: 2% 0;
-      margin-right: 5%;
+      margin: 2% 5%;
+      margin-left: 0;
+      margin-right: 6.5%;
       margin-top: 3%; }
 
 .detailsTitle {
@@ -712,22 +706,19 @@ a {
 
   .detailsContainer {
     margin-top: 8%; }
-    .detailsContainer .detailsSubContainer .detailsAbout {
+    .detailsContainer .detailsAbout {
       clear: both;
       float: none;
-      width: 90%;
-      margin: 0 auto;
-      margin-bottom: 8%; }
-    .detailsContainer .detailsSubContainer .detailsApproach {
+      width: 80%;
+      margin: 0;
+      margin-left: 10%;
+      margin-bottom: 11%; }
+    .detailsContainer .detailsTools {
       float: none;
-      width: 90%;
-      margin: 0 auto;
-      margin-bottom: 8%; }
-    .detailsContainer .detailsSubContainer .detailsTools {
-      float: none;
-      width: 90%;
-      margin: 0 auto;
-      margin-bottom: 8%; }
+      width: 80%;
+      margin: 0;
+      margin-left: 10%;
+      margin-bottom: 11%; }
 
   .detailsTitle {
     font-size: 1.1rem;
@@ -782,22 +773,19 @@ a {
 
   .detailsContainer {
     margin-top: 15%; }
-    .detailsContainer .detailsSubContainer .detailsAbout {
+    .detailsContainer .detailsAbout {
       clear: both;
       float: none;
       width: 80%;
-      margin: 0 auto;
-      margin-bottom: 8%; }
-    .detailsContainer .detailsSubContainer .detailsApproach {
+      margin: 0;
+      margin-left: 10%;
+      margin-bottom: 11%; }
+    .detailsContainer .detailsTools {
       float: none;
       width: 80%;
-      margin: 0 auto;
-      margin-bottom: 8%; }
-    .detailsContainer .detailsSubContainer .detailsTools {
-      float: none;
-      width: 80%;
-      margin: 0 auto;
-      margin-bottom: 8%; }
+      margin: 0;
+      margin-bottom: 11%;
+      margin-left: 10%; }
 
   .detailsTitle {
     font-size: 1rem;
