@@ -202,24 +202,21 @@ h1, h2, h3, h4, h5, h6, p, a {
       clear: both;
       float: left;
       width: 25%;
-      margin: 2% 0;
-      margin-top: 3%;
+      margin: 3% 0;
       margin-left: 6.5%;
       // padding-bottom: 3%;
     }
     .detailsApproach {
       float: left;
       width: 25%;
-      margin: 2% 6.7%;
-      margin-top: 3%;
+      margin: 3% 6.7%;
       // padding-bottom: 3%;
     }
     .detailsTools {
       float: left;
       width: 25%;
-      margin: 2% 0;
+      margin: 3% 0;
       margin-right: 5%;
-      margin-top: 3%;
       // padding-bottom: 3%;
     }
   }
@@ -239,6 +236,9 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-weight: bolder;
   // padding: 20px;
   // border: 2px solid #c7b157;
+  .aboutme {
+    color: #c7b157;
+  }
 }
 
 .footerContainer {
@@ -998,19 +998,19 @@ br {
       float: none;
       width: 90%;
       margin: 0 auto;
-      margin-bottom: 8%;
+      margin-bottom: 6%;
     }
     .detailsApproach {
       float: none;
       width: 90%;
       margin: 0 auto;
-      margin-bottom: 8%;
+      margin-bottom: 6%;
     }
     .detailsTools {
       float: none;
       width: 90%;
       margin: 0 auto;
-      margin-bottom: 8%;
+      margin-bottom: 6%;
     }
   }
 }

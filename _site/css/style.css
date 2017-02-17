@@ -159,20 +159,17 @@ h1, h2, h3, h4, h5, h6, p, a {
       clear: both;
       float: left;
       width: 25%;
-      margin: 2% 0;
-      margin-top: 3%;
+      margin: 3% 0;
       margin-left: 6.5%; }
     .detailsContainer .detailsSubContainer .detailsApproach {
       float: left;
       width: 25%;
-      margin: 2% 6.7%;
-      margin-top: 3%; }
+      margin: 3% 6.7%; }
     .detailsContainer .detailsSubContainer .detailsTools {
       float: left;
       width: 25%;
-      margin: 2% 0;
-      margin-right: 5%;
-      margin-top: 3%; }
+      margin: 3% 0;
+      margin-right: 5%; }
 
 .detailsTitle {
   font-size: 1.4rem;
@@ -186,6 +183,8 @@ h1, h2, h3, h4, h5, h6, p, a {
   text-align: left;
   font-size: .85rem;
   font-weight: bolder; }
+  .detailsBlurb .aboutme {
+    color: #c7b157; }
 
 .footerContainer {
   clear: both;
@@ -717,17 +716,17 @@ a {
       float: none;
       width: 90%;
       margin: 0 auto;
-      margin-bottom: 8%; }
+      margin-bottom: 6%; }
     .detailsContainer .detailsSubContainer .detailsApproach {
       float: none;
       width: 90%;
       margin: 0 auto;
-      margin-bottom: 8%; }
+      margin-bottom: 6%; }
     .detailsContainer .detailsSubContainer .detailsTools {
       float: none;
       width: 90%;
       margin: 0 auto;
-      margin-bottom: 8%; }
+      margin-bottom: 6%; }
 
   .detailsTitle {
     font-size: 1.1rem;
