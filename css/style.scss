@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   .aboutSectionPic {
     // float: left;
     // width: 38.5%;
-    width: 330px;
+    width: 350px;
     padding-left: 3%;
     padding-top: 3.5%;
     .aboutSectionImg {
@@ -337,16 +337,18 @@ h1, h2, h3, h4, h5, h6, p, a {
     // clear: both;
     color: #4B4949;
     padding: 1% 6%;
-    font-weight: bolder;
+    // font-weight: bolder;
     text-align: justify;
     a {
-      color: #4B4949;
+      color: #c7b157;
       .aboutLink {
       font-weight: bolder;
       }
     }
     a:hover {
-      color: #c7b157;
+      // color: #4B4949;
+      padding-bottom: 3px;
+      border-bottom: 2px solid #c7b157;
       cursor: pointer;
     }
   }
@@ -888,7 +890,7 @@ br {
           a:hover {
             // color: #c7b157;
             padding-bottom: 3px;
-            border-bottom: 3px solid #c7b157;
+            border-bottom: 2px solid #c7b157;
             // transition: border .3s linear;
           }
       }
