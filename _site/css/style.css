@@ -293,6 +293,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   color: #4B4949;
   padding: 0 4%;
   margin: 0;
+  font-size: .93rem;
   text-align: justify; }
   .workBlurb a {
     text-decoration: none; }
@@ -644,7 +645,7 @@ a {
         margin-left: 1%;
         text-align: justify;
         color: #4B4949;
-        font-size: .95rem; }
+        font-size: .9rem; }
         .projectsSection .projectItem .projectText p a {
           color: #4B4949; }
           .projectsSection .projectItem .projectText p a .projectLink {
@@ -777,7 +778,7 @@ a {
       margin-top: 17%;
       font-size: 1.8rem; }
     .titleBox .titleText {
-      font-size: .9rem; }
+      font-size: .85rem; }
     .titleBox .boldText {
       font-size: 1.1rem; }
 
