@@ -337,6 +337,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     // clear: both;
     color: #4B4949;
     padding: 1% 6%;
+    font-size: .95rem;
     // font-weight: bolder;
     text-align: justify;
     a {
@@ -843,6 +844,9 @@ br {
     font-weight: normal;
     font-size: 2.5rem;
   }
+  .currentSectionTitle {
+    font-size: 2rem;
+  }
   .projectItem {
     display: flex;
     flex-direction: row;
@@ -878,12 +882,13 @@ br {
           margin-left: 1%;
           text-align: justify;
           color: #4B4949;
+          font-size: .95rem;
           // font-weight: bolder;
           a {
             color: #4B4949;
             .projectLink {
             font-weight: bold;
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: #c7b157;
             }
           }
