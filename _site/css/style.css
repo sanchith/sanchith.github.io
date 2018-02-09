@@ -300,6 +300,9 @@ h1, h2, h3, h4, h5, h6, p, a {
     .workBlurb a .linkText {
       color: #c7b157; }
 
+.linkTextColor {
+  color: #c7b157; }
+
 .workSectionSubTitle {
   text-align: center; }
 
