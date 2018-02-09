@@ -680,6 +680,16 @@ a {
   .projectImages img {
     width: 96%; }
 
+.projectImages-purposeux {
+  margin-left: 25%; }
+  .projectImages-purposeux img {
+    width: 70%; }
+
+.projectImages-purposeux-accent {
+  margin-left: 40%; }
+  .projectImages-purposeux-accent img {
+    width: 40%; }
+
 @media (min-width: 479px) and (max-width: 768px) {
   .projectLeft {
     clear: both;

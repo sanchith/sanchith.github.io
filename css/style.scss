@@ -945,6 +945,20 @@ br {
     width: 96%;
   }
 }
+.projectImages-purposeux {
+  margin-left: 25%;
+  img {
+  //  height: 50%;
+    width: 70%;
+  }
+}
+.projectImages-purposeux-accent {
+  margin-left: 40%;
+  img {
+  //  height: 50%;
+    width: 40%;
+  }
+}
 
 // media queries
 @media (min-width: 479px) and (max-width: 768px) {
